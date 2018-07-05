@@ -14,4 +14,5 @@ user_input = gets.strip
 user_input = input_to_index(user_input)
 
 #Call move method
-puts move(board,user_input)
+display_board = move(board,user_input)
+puts display_board
