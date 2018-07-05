@@ -14,4 +14,4 @@ user_input = gets.strip
 user_input = input_to_index(user_input)
 
 #Call move method
-move(board,user_input)
+puts move(board,user_input)
