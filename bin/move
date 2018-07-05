@@ -11,4 +11,7 @@ puts "Welcome to Tic Tac Toe!"
 
 #Request input from user and convert to index number
 user_input = gets.strip
-input_to_index(user_input)
+user_input = input_to_index(user_input)
+
+#Call move method
+move(board,user_input)
