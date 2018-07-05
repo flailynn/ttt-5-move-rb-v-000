@@ -16,5 +16,3 @@ user_input = input_to_index(user_input)
 #Call move method
 board = move(board,user_input)
 display_board(board)
-
-
